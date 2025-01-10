@@ -12,7 +12,9 @@ endif()
 project ("Pokemon_Battle_CLI")
 
 # Add source to this project's executable.
-add_executable (Pokemon_Battle_CLI "Pokemon_Battle_CLI.cpp" )
+add_executable (Pokemon_Battle_CLI "Pokemon_Battle_CLI.cpp")
+add_subdirectory(include)
+add_subdirectory(source)
 file(COPY "pokemon.csv" "pokemon_stats.csv" DESTINATION ${PROJECT_BINARY_DIR})
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)

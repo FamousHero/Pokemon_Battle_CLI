@@ -7,6 +7,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "include/Pokedex.h"
+
 // Could store in a db but thats too complicated for rn
 // Creating a hash set to live in RAM since its only 35kb
 // Means file must be included with binary

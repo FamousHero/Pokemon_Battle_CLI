@@ -1,3 +1,7 @@
 C:/Users/danie/Repos/Pokemon_Battle_CLI/out/build/x64-debug/CMakeFiles/Pokemon_Battle_CLI.dir
 C:/Users/danie/Repos/Pokemon_Battle_CLI/out/build/x64-debug/CMakeFiles/edit_cache.dir
 C:/Users/danie/Repos/Pokemon_Battle_CLI/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/danie/Repos/Pokemon_Battle_CLI/out/build/x64-debug/include/CMakeFiles/edit_cache.dir
+C:/Users/danie/Repos/Pokemon_Battle_CLI/out/build/x64-debug/include/CMakeFiles/rebuild_cache.dir
+C:/Users/danie/Repos/Pokemon_Battle_CLI/out/build/x64-debug/source/CMakeFiles/edit_cache.dir
+C:/Users/danie/Repos/Pokemon_Battle_CLI/out/build/x64-debug/source/CMakeFiles/rebuild_cache.dir

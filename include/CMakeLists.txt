@@ -1,0 +1,1 @@
+set(sources Pokedex.h Pokemon.h)

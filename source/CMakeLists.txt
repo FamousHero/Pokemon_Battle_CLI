@@ -1,0 +1,1 @@
+set(sources Pokedex.cpp Pokemon.cpp)
