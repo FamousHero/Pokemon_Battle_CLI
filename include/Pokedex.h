@@ -46,6 +46,9 @@ public:
 	bool Search(std::string name);
 
 private:
+	// Maybe return references to avoid copy but
+	// "C++ return optimization" might already do it
+	// test w/ debugger
 	std::vector<std::string> SplitString(const std::string& line, char delimiter);
 	Stats CreatePokemonStats(const std::vector<std::string>& pokemon_info);
 	Move CreatePokemonMove(const std::vector<std::string>& move_info);
