@@ -1,1 +1,1 @@
-set(sources Pokedex.cpp Pokemon.cpp)
+set(SOURCES Pokedex.cpp Pokemon.cpp)

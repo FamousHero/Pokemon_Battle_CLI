@@ -36,10 +36,10 @@ void GameLoop() {
 	bool running = true;
 	std::unordered_set<std::string> pokedex = CreatePokedex();
 	while (running) {
-		std::string next_move = "none";
+		std::string next_move = "exit";
 		std::cout << "Please type your next move" << std::endl;
 		std::cin >> next_move;
-		if (next_move == "none") {
+		if (next_move == "exit") {
 			std::cout << "No move selected, Game will terminate" << std::endl;
 			return;
 		}
@@ -50,8 +50,11 @@ void GameLoop() {
 
 int main()
 {
-	std::cout << "Hello CMake." << std::endl;
+	std::cout << "Hello CMake. " << std::endl;
 	std::cout << "Starting from day 1" << std::endl;
 	GameLoop();
+	std::cout << "Creating Pokedex" << std::endl;
+	Pokedex pokedex;
+	pokedex.CreatePokedex();
 	return 0;
 }

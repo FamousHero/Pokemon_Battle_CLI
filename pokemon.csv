@@ -1,5 +1,5 @@
 id,identifier,health,speed
-1,bulbasaur,500
+1,bulbasaur,500,100
 2,ivysaur,600,200
 3,venusaur,800,300
 4,charmander,350,100

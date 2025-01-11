@@ -12,10 +12,10 @@ endif()
 project ("Pokemon_Battle_CLI")
 
 # Add source to this project's executable.
-add_executable (Pokemon_Battle_CLI "Pokemon_Battle_CLI.cpp")
-add_subdirectory(include)
-add_subdirectory(source)
-file(COPY "pokemon.csv" "pokemon_stats.csv" DESTINATION ${PROJECT_BINARY_DIR})
+add_subdirectory(${PROJECT_SOURCE_DIR}/include)
+add_subdirectory(${PROJECT_SOURCE_DIR}/source)
+add_executable (Pokemon_Battle_CLI "Pokemon_Battle_CLI.cpp" "include/Pokedex.h" "source/Pokedex.cpp")
+file(COPY "pokemon.csv" "pokemon_stats.csv" "pokemon_moves.csv" DESTINATION ${PROJECT_BINARY_DIR})
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Pokemon_Battle_CLI PROPERTY CXX_STANDARD 20)

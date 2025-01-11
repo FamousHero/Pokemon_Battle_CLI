@@ -1,1 +1,1 @@
-set(sources Pokedex.h Pokemon.h)
+set(INCLUDES Pokedex.h Pokemon.h)
