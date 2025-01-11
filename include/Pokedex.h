@@ -26,7 +26,6 @@ enum class Attack_Type {
 
 };
 
-Attack_Type test = Attack_Type::NORMAL;
 struct Move {
 	std::string m_name;
 	Attack_Type m_attack_type;
@@ -48,4 +47,5 @@ public:
 
 private:
 	std::unordered_map<std::string, Stats> m_pokedex;
+
 };
