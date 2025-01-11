@@ -92,7 +92,7 @@ void Pokedex::PrintPokedexEntry(const std::string& entry_name)
 {
 	std::cout << entry_name << ": hp="
 		<< m_pokedex[entry_name].m_health << " speed="
-		<< m_pokedex[entry_name].m_speed << "Moves=\n";
+		<< m_pokedex[entry_name].m_speed << " moves=\n";
 	for (auto it : m_pokedex[entry_name].m_moves) {
 		std::cout << "\tMove Name=" << it.m_name << " Power="
 			<< it.m_power << "Crit *=" << it.m_crit_multiplier << "\n";

@@ -54,7 +54,7 @@ private:
 	Move CreatePokemonMove(const std::vector<std::string>& move_info);
 	void GenerateAllPokemonMoves(std::vector<Move>& pokemon_move_vector, const std::string& pokemon_id);
 	void PrintPokedexEntry(const std::string& entry_name);
-private:
+public:
 	std::unordered_map<std::string, Stats> m_pokedex;
 
 };
